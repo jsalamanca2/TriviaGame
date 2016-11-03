@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<html>
+<head>
+<meta charset="UTF-8">
+  <title>Steven Spielberg Movie Trivia</title>
+  <link href="assets/css/reset.css" rel="stylesheet" type="text/css">
+  <link href="assets/css/style.css" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">  
+  <script src="assets/javascript/app.js" type="text/javascript"></script>
+  <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.js"></script>
+
+  
+</head>
+<body onload="hideElements()">
+
+<div class="container">
+    <!-- start page -->
+    <div class="startpage">
+      <div class="starttext">
+      <h2>Spielberg Movie Quiz Anyone? <br> Click Start Button</h2>
+      <button id="begin" onclick="run()">START</button><br>
+      </div>
+      <div class="timer">
+      <h3 id="time-left"></h3>
+      </div>
+    </div>
+
+ 
+    <!-- trivia questions with selection of 4 possible answers using bootstrap buttons-->
+    <div class="question" id="triviaview"> 
+      <div class="col-sm-12">
+
+      <form>  
+        <div id="question1"> <h3>1. What movie series did Steven Spielberg and George Lucas collaborate in?</h3>
+        <input type="radio" id="ans1" name="space" value="star wars"> Star Wars
+        <input type="radio" id="ans2" name="space" value="indiana jones"> Indiana Jones
+        <input type="radio" id="ans3" name="space" value="back to the future"> Back To The Future
+        <input type="radio" id="ans4" name="space" value="jurassic park"> Jurassic Park
+        </div>
+      </form>
+      <br>
+        <div id="question2"> <h3>2. What movie made Spielberg an international superstar director?</h3>
+        <input type="radio" id="ans5" name="space" value="jaws"> Jaws
+        <input type="radio" id="ans6" name="space" value="e.t."> E.T.
+        <input type="radio" id="ans7" name="space" value="1941"> 1941
+        <input type="radio" id="ans8" name="space" value="CEOTTK"> Close Encounter of The Third Kind
+        </div>
+      <br>
+      <form>
+        <div id="question3"><h3>3. Which film was about a extra terrestrial stranded on Earth and trying to get back to its home planet?</h3>
+        <input type="radio" id="ans9" name="space" value="CEOTTK"> Close Encounters of the Third Kind
+        <input type="radio" id="ans10" name="space" value="alien"> Alien
+        <input type="radio" id="ans11" name="space" value="Innerspace"> Innerspace
+        <input type="radio" id="ans12" name="space" value="e.t."> E.T.
+        </div>
+      </form>
+      <br>
+      <form>
+        <div id="question4"> <h3>4. In what film circles around a history professor traveling to exotic places to retrieve artifacts of historical world importance?</h3>
+        <input type="radio" id="ans13" name="space" value="indiana jones"> Indiana Jones
+        <input type="radio" id="ans14" name="space" value="adventures of tintin"> Adventures of Tintin
+        <input type="radio" id="ans15" name="space" value="munich"> Munich
+        <input type="radio" id="ans16" name="space" value="amistad"> Amistad
+        </div>
+      </form>
+      <br>
+      <form>
+        <div id="question5"> <h3>5. Which one of these movies had Leonardo DiCaprio playing the lead role of Frank Abignale?</h3>
+        <input type="radio" id="ans17" name="space" value="munich"> Munich
+        <input type="radio" id="ans18" name="space" value="catch me if you can"> Catch Me If You Can
+        <input type="radio" id="ans19" name="space" value="Birdge of Spies"> Bridge of Spies
+        <input type="radio" id="ans20" name="space" value="the terminal"> The Terminal
+        </div>
+      </form>
+      <br><br>
+
+    </div> 
+
+    <!-- results of score after time is finished -->
+    <div class="score">
+      <span id="scoretext"></span><br><br>
+      <button id="restart" onclick="restart()">RESTART</button>
+      
+    </div>
+
+
+  </div>
+</div>
+
+
+
+</body>
+</html>

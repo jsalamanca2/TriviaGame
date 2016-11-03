@@ -1,4 +1,4 @@
-var timer = 60;
+var timer = 120;
         var counter = null;
         var questions = ["question1","question2","question3","question4","question5","question6","question7","question8","question9","question10"];
         var answers = ["indiana jones","jaws","e.t.","indiana jones","catch me if you can","indiana jones","1975","saving private ryan","poltergeist","2"];

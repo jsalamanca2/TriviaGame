@@ -42,7 +42,6 @@ var timer = 60;
             enableQuestions();          
             $('.starttext').hide();
 
-
         }
         function disableQuestions()
         {

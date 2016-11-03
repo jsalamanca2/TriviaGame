@@ -1,0 +1,49 @@
+body { 
+	background: url(../../assets/images/film.jpg) repeat;  
+	background-size: 100%;
+	background-color: black;
+	font-family: 'Homenaje', sans-serif;
+	}
+	.container{
+	background-color: lightgrey;
+	opacity: 0.90;
+    width: 800px;
+    height: 100%;
+    padding: 20px;
+    border: 5px solid navy;
+    margin: auto;
+    margin-top: 50px;
+	}
+	.question {
+		text-align: justify-all;
+		font-size: 20px;
+		
+	}
+	h3{
+		font-size: 20px;
+		font-weight: bold;
+	}
+	#begin{
+		font-size: 18px;
+		font-weight: bold;	
+	}
+	.starttext{
+		padding: 25px;
+		text-align: center;
+		margin-top:75px;
+		font-weight: bold;
+		font-family: 'Homenaje', sans-serif;	
+	}
+	#time-left{
+		text-align: center;
+	}
+	.score{
+		text-align: center;
+		padding: 25px;	
+		font-size: 18px;
+		font-weight: bold;		
+	}
+	#scoretext{
+		color: red;	
+	}
+
